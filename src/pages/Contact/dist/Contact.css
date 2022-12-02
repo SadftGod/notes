@@ -1,0 +1,22 @@
+.girl-banner {
+  width: 100%;
+  height: 400px;
+  background: url("bunny.png");
+  background-size: 100%;
+}
+.social-cont {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 10px;
+}
+.social-medias-img {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+}
+.hhh {
+  color: #fff;
+  margin: 15px;
+}

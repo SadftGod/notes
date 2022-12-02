@@ -1,0 +1,132 @@
+sizes(w,h)  
+   width w
+   height h 
+flexer(jc,ai)
+   display: flex
+   flex-flow: column wrap
+   justify-content jc
+   align-items ai
+title-fonter()
+   font-family: 'Yeseva One', cursive;
+fonter-glitc()
+   font-family: 'Rubik Glitch', cursive;
+default-font()
+   font-family: 'Comfortaa', cursive;
+
+
+.ent-container
+   flexer(center,flex-start)  
+   margin 10px 0 0 10px
+.title-editor
+   color white
+   text-shadow: 2px 2px 8px #000129;
+   font-size 30px
+   sizes(500px,40px)
+   background: none
+   outline: none
+   border-top none
+   border-left none
+   border-right none
+   padding-left: 5px
+   default-font()
+.title-editor::placeholder
+   color rgb(212, 212, 212)
+   background url(icon.png) no-repeat 
+   background-position-x: 99%
+   default-font()
+.title-text
+   background: none
+   outline: none
+   border-top none
+   margin-top 10px
+   color white
+   resize: none;
+   default-font()
+.title-text::placeholder
+   color rgb(212, 212, 212)
+   font-size 15px
+   default-font()
+::-webkit-scrollbar 
+  width: 5px;
+::-webkit-scrollbar-track 
+  border-radius: 20px;
+  background none
+  border none
+  outline: none
+  
+::-webkit-scrollbar-thumb 
+  background: white; 
+  border-radius: 10px;
+::-webkit-scrollbar-thumb:hover 
+  background-color: #ffffff;
+.submit
+   sizes(50px,50px)
+   border-radius: 10px
+   background: url(submitdef.png)
+   margin-left 660px
+   margin-top 90px
+   position absolute
+.submit:hover  
+   sizes(50px,50px)
+   border-radius: 10px
+   background: url(submit.png)
+
+.change
+   sizes(50px,50px)
+   background: url(swich.png)
+   border-radius: 10px
+   background-size: 100%
+   position absolute
+   margin-left 350px
+   margin-top 120px
+.change:hover
+   sizes(50px,50px)
+   background: url(changehover.png)
+   border-radius: 10px
+   background-size: 100%
+.colors-diversity-dark
+   display block 
+   position: absolute
+   margin-top 125px
+.colors-diversity-light
+   display none
+   position: absolute
+   margin-top 125px
+.color1 , .color2 , .color3 , .color4 , .color5 , .color6 , .color7
+   sizes(35px,35px)
+   margin-left 10px
+   border-radius: 10px
+.colorl1 , .colorl2 , .colorl3 , .colorl4 , .colorl5 , .colorl6 , .colorl7
+   
+   sizes(35px,35px)
+   margin-left 10px
+   border-radius: 10px
+.color1
+   background-color: #7C0000
+.color2
+   background-color: #64007C
+.color3
+   background-color: #b8b501
+.color4
+   background-color: #ABABAB
+.color5
+   background-color: #001460
+.color6
+   background-color: #006108
+.color7
+   background-color: #930094
+.colorl1
+   background-color: #ff0000
+.colorl2
+   background-color: #6f00ff
+.colorl3
+   background-color: #fffb00
+.colorl4
+   background-color: #ffffff
+.colorl5
+   background-color: #0033ff
+.colorl6
+   background-color: #00ff15
+.colorl7
+   background-color: #ff00ff
+   

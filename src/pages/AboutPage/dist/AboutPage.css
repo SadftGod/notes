@@ -1,0 +1,38 @@
+header {
+  width: 100%;
+  height: 200px;
+  background: url("header.png");
+  background-size: 100%;
+}
+body {
+  background-color: #303030;
+}
+.text-container {
+  width: 94%;
+  height: 100%;
+  margin-left: 3%;
+}
+.bout-title {
+  color: #bebebe;
+  font-family: 'Yeseva One', cursive;
+  margin-top: 40px;
+}
+ul {
+  font-family: 'Comfortaa', cursive;
+  font-size: 30px;
+  color: #fff;
+  margin: 30px;
+}
+li {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.mainpng {
+  width: 400px;
+  height: 270px;
+  background-size: 100%;
+  float: right;
+}

@@ -1,0 +1,90 @@
+sizes(w,h)  
+   width w
+   height h 
+flexer(jc,ai)
+   display: flex
+   flex-flow: row wrap
+   justify-content jc
+   align-items ai
+title-fonter()
+   font-family: 'Yeseva One', cursive;
+fonter-glitc()
+   font-family: 'Rubik Glitch', cursive;
+default-font()
+   font-family: 'Comfortaa', cursive;
+
+*
+   text-decoration: none
+.navy
+   sizes(100%,43px)
+   background-color: black
+   flexer(space-between,center)
+.left-side  
+   flexer(flex-start,center)
+   margin-left 10px
+.right-side  
+   flexer(flex-start,center)
+   margin-right 10px
+img
+   sizes(40px,40px)
+.title  
+   color white
+   title-fonter()
+.page-name
+   color white
+   default-font()
+   font-size 20px
+   margin-right: 5px
+.btn-menu
+   sizes(40px,40px)
+   background url('btn/btn-before.png')
+   background-size: 100%
+dl 
+   display: none
+   background-color rgb(20, 20, 20)
+   color white
+   sizes(100px,70px) //70
+   float right
+   border-bottom: 2px groove #BDBDBD;
+   border-left: 2px groove #BDBDBD;
+dt 
+   sizes(100%,50%)
+   text-align: center
+   default-font()
+dt:hover
+   background-color rgb(77, 77, 77)
+   color black
+.dt 
+   color white
+.nav-bar 
+   .active 
+      color rgb(70, 70, 70)
+
+
+
+@keyframes opener 
+   0%
+      sizes(40px,40px)
+      background url('btn/btn-before.png')
+      background-size: 100%
+   50%
+      sizes(40px,40px)
+      background url('btn/active.gif')
+      background-size: 100%
+   100%
+      sizes(40px,40px)
+      background url('btn/btn-after.png')
+      background-size: 100%
+@keyframes closer 
+   0%
+      sizes(40px,40px)
+      background url('btn/btn-after.png')
+      background-size: 100%
+   50%
+      sizes(40px,40px)
+      background url('btn/active-back.gif')
+      background-size: 100%
+   100%
+      sizes(40px,40px)
+      background url('btn/btn-before.png')
+      background-size: 100%
